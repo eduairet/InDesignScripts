@@ -1,9 +1,9 @@
-// This script exports the second page of all the documents open in the app to the desktop
+// This script exports the same page of all the documents open in the app to the desktop
 
 // User settings
 // _________________________________________________________
 
-var pageToExport = 1; // Index 0, doc ignores doc numbering 
+var pageToExport = 1; // 0 indexed it ignores doc numbering 
 var exportResolution = 72; // PNG resolution
 var antiAliasing = true; // Toggle anti alias
 var pngQual = PNGQualityEnum.MAXIMUM; // PNG export quality
