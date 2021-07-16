@@ -4,7 +4,7 @@
 // _________________________________________________________
 
 var pageToExport = 1; // 0 indexed it ignores doc numbering 
-var exportResolution = 72; // PNG resolution
+var exportRes = 72; // PNG resolution
 var antiAliasing = true; // Toggle anti alias
 var pngQual = PNGQualityEnum.MAXIMUM; // PNG export quality
 var bgTransparency = false; // PNG export transparency
@@ -25,7 +25,7 @@ for (var i=0; i<documents.length; i++){
         pageString = currentDocument.pages.item(pageToExport).name; // Page to export
         pngExportRange = PNGExportRangeEnum.EXPORT_RANGE; // Activate page range export
         antiAlias = antiAliasing; // Anti alias taken from user settings variable
-        exportResolution = exportResolution; // Resolution taken from user settings variable
+        exportResolution = exportRes; // Resolution taken from user settings variable
         pngQuality = pngQual; // PNG quality taken from user settings variable
         transparentBackground = bgTransparency; // Background transparency taken from user settings variable
     }
