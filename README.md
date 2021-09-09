@@ -1,4 +1,4 @@
-# InDesignScripts — JSX | Virtual Studio Code | ExtendScript
+# InDesignScripts — JSX | Visual Studio Code | ExtendScript
 
 ## Esp
 · Scripts para InDesign
