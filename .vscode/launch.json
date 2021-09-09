@@ -1,0 +1,12 @@
+{
+    "configurations": [
+    {
+        "type": "extendscript-debug",
+        "request": "launch",
+        "targetSpecifier": "indesign-16.064",
+        "name": "Script name / Nombre del script",
+        "program": "${workspaceFolder}/scriptFile.jsx",
+        "stopOnEntry": false
+    }
+    ]
+}
