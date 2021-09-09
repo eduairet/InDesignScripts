@@ -1,4 +1,9 @@
-# InDesignScripts
+# InDesignScripts — JSX | Virtual Studio Code | ExtendScript
 
-Esp - Scripts desarrollados por Eduardo Aire Torres para facilitar tareas dentro de InDesign
-Eng - Scripts developed by Eduardo Aire Torres to facilitate tasks within InDesign 
+## Esp
+· Scripts para InDesign
+· Si tienes alguna petición o comentario siéntete libre de contactarme.
+
+## Eng
+· InDesign scripts
+· If you have any request or comment feel free to contact me.
