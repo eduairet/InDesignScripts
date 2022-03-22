@@ -1,12 +1,24 @@
 {
+    "version": "0.2.0",
     "configurations": [
-    {
-        "type": "extendscript-debug",
-        "request": "launch",
-        "targetSpecifier": "indesign-16.064",
-        "name": "Script name / Nombre del script",
-        "program": "${workspaceFolder}/scriptFile.jsx",
-        "stopOnEntry": false
-    }
+        
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Export One Page From All Open Documents",
+            "dontBreakOnErrors": true,
+            "targetSpecifier": "indesign-17.064",
+            "program": "${workspaceFolder}/exportOnePageFromAllOpenDocuments.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "No Hyphen Break",
+            "dontBreakOnErrors": true,
+            "targetSpecifier": "indesign-17.064",
+            "program": "${workspaceFolder}/noHyphenBreak.jsx",
+            "stopOnEntry": false
+        }
     ]
 }
